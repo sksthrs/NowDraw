@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  user-select: none;
 }
 
 html {
@@ -23,6 +24,10 @@ div {
   padding: 0;
 }
 
+button {
+  cursor: pointer;
+}
+
 /* ==================== Generic classes ==================== */
 
 .floating {
@@ -38,38 +43,12 @@ div {
   border-radius: 50%;
 }
 
-.black-white {
-  color: black;
-  background-color: white;
-}
-
-.white-black {
-  color: white;
-  background-color: black;
-}
-
-.yellow-blue {
-  color: yellow;
-  background-color: #000050;
-}
-
-/* ==================== Button Colors ==================== */
-
-button.func {
-  color: black;
-  background-color: #80FF80;
-}
-
-button.config {
-  color: black;
-  background-color: #FFFF80;
-}
-
 .x1 { left: 0.5em; }
 .x2 { left: 2.5em; }
 .x3 { left: 4.5em; }
 
 .semitrans {
+  color: white;
   background-color: rgb(0 0 0 / 20%);
 }
 
