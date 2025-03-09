@@ -1,4 +1,4 @@
-const cacheName = 'NowDraw-v1.0.2'
+const cacheName = 'NowDraw-v1.0.3'
 const cacheUrls = [
   './',
   'index.html',

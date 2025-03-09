@@ -204,9 +204,9 @@ document.addEventListener('DOMContentLoaded', (ev) => {
   }
 
   function updateColorButton() {
-    const colors = getColors();
-    _colorButton.style.color = colors.draw;
-    _colorButton.style.backgroundColor = colors.back;
+    // const colors = getColors();
+    // _colorButton.style.color = colors.draw;
+    // _colorButton.style.backgroundColor = colors.back;
   }
 
   function updateWeightButton() {
