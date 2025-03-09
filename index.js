@@ -11,6 +11,10 @@ if ('serviceWorker' in navigator) {
   });
 }
 
+if (navigator.language != null && navigator.language.length > 0) {
+  document.documentElement.lang = navigator.language;
+}
+
 document.addEventListener('DOMContentLoaded', (ev) => {
   /** @type {HTMLButtonElement} */
   const _eraseButton = document.getElementById('erase');
