@@ -211,9 +211,9 @@ document.addEventListener('DOMContentLoaded', (ev) => {
 
   function updateWeightButton() {
     const w = getWeightIndex();
-    if (w === 1) { _weightButton.textContent = '1'; }
-    else if (w === 3) { _weightButton.textContent = '3'; }
-    else { _weightButton.textContent = '2'; }
+    if (w === 1) { _weightButton.textContent = 'S'; }
+    else if (w === 3) { _weightButton.textContent = 'L'; }
+    else { _weightButton.textContent = 'M'; }
   }
 
   function setEventHandlers() {
